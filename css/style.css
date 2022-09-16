@@ -22,19 +22,36 @@
 /*******************************************/
 
 body {
+  background: rgb(79, 105, 79);
 
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
 }
 
+h1 {
+  font-size: 2em;
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 header {
+  height: 100px;
+  background: black;
+  color: white;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 footer {
 
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
 }
 
 /******************************************
