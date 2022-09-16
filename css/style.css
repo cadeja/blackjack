@@ -22,6 +22,7 @@
 /*******************************************/
 
 body {
+  height: 100vh;
   background: rgb(79, 105, 79);
 
   font-family: 'Times New Roman', Times, serif;
@@ -45,13 +46,50 @@ header {
   justify-content: center;
 }
 
-footer {
 
+main {
+  height: calc(100% - 100px);
 }
 
 .card {
+  height: 200px;
+  width: 140px;
   background: white;
   border-radius: 20px;
+  margin: 5px;
+}
+
+.game {
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 80%;
+}
+
+.hands {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: space-around;
+}
+
+.empty {
+  width: 150px;
+}
+
+.menu {
+  height: 20%;
+  background: black;
+}
+
+.dealer, .player{
+  display: flex;
+
 }
 
 /******************************************
