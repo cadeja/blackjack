@@ -72,7 +72,6 @@ main {
 .hands {
   height: 100%;
   width: 800px;
-  border: 1px solid red;
 
   display: flex;
   flex-direction: column;
@@ -97,6 +96,18 @@ main {
 .menu {
   height: 20%;
   background: black;
+
+  display: flex;
+  justify-content: center;
+
+  padding: 10px;
+}
+
+button {
+  height: 100px;
+  width: 200px;
+
+  font-size: 1.5em;
 }
 
 
