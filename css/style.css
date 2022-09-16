@@ -55,6 +55,7 @@ main {
   height: 200px;
   width: 140px;
   background: white;
+  border: 3px solid black;
   border-radius: 20px;
   margin: 5px;
 }
@@ -70,12 +71,23 @@ main {
 
 .hands {
   height: 100%;
+  width: 800px;
+  border: 1px solid red;
 
   display: flex;
   flex-direction: column;
 
   align-items: center;
   justify-content: space-around;
+}
+
+.dealer, .player{
+  display: flex;
+}
+
+/* for when the hand is too long to display properly */
+.bighand:not(:first-child) {
+  margin-left: -2em;
 }
 
 .empty {
@@ -87,10 +99,6 @@ main {
   background: black;
 }
 
-.dealer, .player{
-  display: flex;
-
-}
 
 /******************************************
 /* ADDITIONAL STYLES
